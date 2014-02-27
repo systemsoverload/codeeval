@@ -8,8 +8,8 @@ for l in lines:
     code = c.split(' ')
     author = []
     for key in code:
-    	if key:
-    		author.append(encoded_str[int(key) - 1])
+        if key:
+            author.append(encoded_str[int(key) - 1])
 
     print ''.join(author)
 
